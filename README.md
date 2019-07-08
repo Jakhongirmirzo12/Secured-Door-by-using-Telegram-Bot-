@@ -18,7 +18,7 @@
 
 ### install Raspebbry pi 
 
-https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
+<a href="https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/"></a>
 
 ## Steps 
 
@@ -43,24 +43,13 @@ https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
 
     -sudo nano /etc/motion/motion.conf
 
-### create mybot
-here is great <a href="https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/"> tutorial </a> for this
-
 ### install telepot
 pip install telepot
 
 #### after installing telepot . Now if the both listen_bot.py and motion -c ~/motion/motion.conf are running, the system should work.
 
-#### creating service 
-ere, the following is working, but I am sure this is the right way to do, so use we care.
-add the file listen.service in the folder /etc/systemd/system and type thsese codes.
-![Screenshot](listen-service.png)
-
 #####run the service
 ##### pi@raspberrypi:/etc/systemd/system $ service listen status
-
-### here is example of motion detected
-![Screenshot](motion.PNG)
 
 ## Setting up Servo and LED
 ### set up servo and LED to GPIO by following this picture
