@@ -26,13 +26,13 @@ https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
     Get your Raspberry Pi from Here.
     - sudo apt update
 
-    2. Step 2
+2. Step 
 
     Run raspi config and enable camera module
 
     - sudo raspi-config
 
-    3. Step 3
+ 3. Step 
     
     Now you can install motion by running the command
 
